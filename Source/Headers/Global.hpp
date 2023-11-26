@@ -1,5 +1,10 @@
 #pragma once
 
+#include <SFML/Graphics/Rect.hpp>
+#include <SFML/Graphics/Sprite.hpp>
+#include <chrono>
+#include <string>
+
 namespace gbl
 {
 	struct SpriteData

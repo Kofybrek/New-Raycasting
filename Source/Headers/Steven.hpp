@@ -1,5 +1,12 @@
 #pragma once
 
+#include "SpriteManager.hpp"
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/System/Vector2.hpp>
+#include <map>
+#include <vector>
+#include <algorithm>
+
 class StevenIzDaBest
 {
 	bool in_the_view;
@@ -19,7 +26,7 @@ class StevenIzDaBest
 	//----------------< A star algorithm start >----------------
 	unsigned short astar_path_length;
 
-	std::map<gbl::Position<>, gbl::Position<>> astar_previous_cell;
+  std::map<gbl::Position<>, gbl::Position<>> astar_previous_cell;
 
 	std::vector<sf::Vector2<unsigned short>> astar_path_vector;
 

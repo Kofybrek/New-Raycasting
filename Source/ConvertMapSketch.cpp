@@ -17,7 +17,7 @@ gbl::MAP::Map<> convert_map_sketch(std::vector<Decoration>& i_decorations, Playe
 	sf::Image map_sketch;
 	map_sketch.loadFromFile("Resources/Images/Maps/MapSketch.png");
 
-	gbl::MAP::Map output_map{};
+	gbl::MAP::Map<gbl::MAP::Cell> output_map{};
 
 	for (unsigned char a = 0; a < gbl::MAP::COLUMNS; a++)
 	{

@@ -1,5 +1,9 @@
 #pragma once
 
+#include "Animation.hpp"
+#include "SpriteManager.hpp"
+#include <string>
+
 class Decoration
 {
 	bool in_the_view;

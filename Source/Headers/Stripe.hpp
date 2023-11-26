@@ -1,5 +1,8 @@
 #pragma once
 
+#include "SpriteManager.hpp"
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <string>
 class Stripe
 {
 	//Angle relative to the player's current direction.

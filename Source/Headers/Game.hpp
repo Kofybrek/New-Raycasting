@@ -1,5 +1,14 @@
 #pragma once
 
+#include "Decoration.hpp"
+#include "Global.hpp"
+#include "Player.hpp"
+#include "Steven.hpp"
+#include "Stripe.hpp"
+#include <SFML/Graphics/VertexArray.hpp>
+#include <array>
+#include <vector>
+
 class Game
 {
 	bool show_map;

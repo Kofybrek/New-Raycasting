@@ -1,6 +1,7 @@
 #include <array>
 #include <chrono>
 #include <SFML/Graphics.hpp>
+#include <cmath>
 
 #include "Headers/AngleFunctions.hpp"
 #include "Headers/Global.hpp"
@@ -8,7 +9,7 @@
 float deg_difference(const float i_angle_0, const float i_angle_1)
 {
 	//This returns an angle between 0 and 180.
-	return 180 - abs(abs(get_degrees(i_angle_0) - get_degrees(i_angle_1)) - 180);
+	return 180 - std::abs(std::abs(get_degrees(i_angle_0) - get_degrees(i_angle_1)) - 180);
 }
 
 float deg_to_rad(const float i_degrees)
