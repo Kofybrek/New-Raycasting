@@ -1,5 +1,6 @@
 #include <array>
 #include <chrono>
+#include <cmath>
 #include <unordered_map>
 #include <SFML/Graphics.hpp>
 
@@ -71,6 +72,7 @@ bool Animation::update(const char i_animation_end)
 			return right_end;
 		}
 	}
+  return false;
 }
 
 float Animation::get_animation_speed() const

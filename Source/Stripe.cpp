@@ -1,5 +1,6 @@
 #include <array>
 #include <chrono>
+#include <cmath>
 #include <unordered_map>
 #include <SFML/Graphics.hpp>
 

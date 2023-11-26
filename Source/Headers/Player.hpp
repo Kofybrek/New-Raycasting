@@ -1,5 +1,8 @@
 #pragma once
 
+#include "Global.hpp"
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/System/Vector2.hpp>
 class Player
 {
 	sf::Vector2f direction;

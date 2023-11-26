@@ -1,5 +1,11 @@
 #pragma once
 
+#include "Global.hpp"
+#include "SpriteManager.hpp"
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/System/Vector2.hpp>
+#include <string>
+
 class Animation
 {
 	//Does the animation go back and forth?
